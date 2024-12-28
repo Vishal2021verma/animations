@@ -1,4 +1,5 @@
-import 'package:animations/implicit_animation/color_&_size_container_screen.dart';
+import 'package:animations/implicit_animation/color_and_size_container_screen.dart';
+import 'package:animations/implicit_animation/opacity_animation_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,9 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ColorSizeContainerScreen(),
+      home: const OpacityAnimationScreen(),
     );
   }
 }
-
-
